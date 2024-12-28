@@ -1,0 +1,98 @@
+export const productsData = [
+  {
+    id: 1,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 1,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    category: "packaging",
+    featured: false,
+    image: "./assets/images/product (1).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 2,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 3,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "packaging",
+    featured: true,
+    image: "./assets/images/product (2).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 3,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 1,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "kitchenware",
+    featured: false,
+    image: "./assets/images/product (3).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 4,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 2,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "kitchenware",
+    featured: true,
+    image: "./assets/images/product (4).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 5,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 1,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "material",
+    featured: true,
+    image: "./assets/images/product (5).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 6,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 1,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "material",
+    featured: true,
+    image: "./assets/images/product (6).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 7,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 4,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "material",
+    featured: false,
+    image: "./assets/images/product (7).jpeg",
+    link: "https://youtube.com"
+  },
+  {
+    id: 8,
+    title: "Lorem Ipsum",
+    price: "$50000000",
+    amountPerSell: 5,
+    unit: "piece",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione totam nesciunt vero fuga dicta modi dolor iure commodi mollitia quas, repellat facere eum maiores distinctio quia a ab nam exercitationem.",
+    category: "miscellanous",
+    featured: false,
+    image: "./assets/images/product (8).jpeg",
+    link: "https://youtube.com"
+  },
+];
