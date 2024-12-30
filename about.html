@@ -10,28 +10,28 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <script defer type="module" src="./assets/script/ui/genericUI.js"></script>
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css">
   <title>Margahayu Indah Jaya Plastik</title>
 </head>
 
 <body>
   <header>
-    <nav id="header-nav" >
+    <nav id="header-nav">
       <div id="menu">
-        <strong id="menu-button">Menu</strong>
+        <strong id="menu-button" class="fa fa-list-ul"></strong>
       </div>
       <ul id="nav-links">
-        <li><img src="./assets/images/logo.jpg" alt=""></li>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./product.html">Product</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><img class="logo" src="./assets/images/logo.jpg" alt=""></li>
+        <li><a href="./index.html">Beranda</a></li>
+        <li><a href="./about.html">Tentang</a></li>
+        <li><a href="./product.html">Produk</a></li>
+        <li><a href="./contact.html">Kontak</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main">
-    <section class="container">
+    <!-- <section class="container">
       <h1 class="section-title">Service</h1>
       <div class="services-list">
         <div class="service-item">
@@ -71,52 +71,88 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section>
-      <h1 class="section-title">About</h1>
+      <h1 class="section-title">Tentang Kami</h1>
+      <hr class="section-title__underline">
       <div class="abouts-list">
         <div class="about-item container">
           <img class="about-item__image" src="./assets/images/bcb3fbeb-6a0a-4247-ad54-64ab04435642.jpeg" alt="">
           <div class="about-item__body">
-            <h2 class="about-item__title">Lorem ipsum</h2>
-            <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate odio eos
-              eum, ipsam architecto aut consectetur soluta vero consequuntur repudiandae excepturi quas maiores ducimus?
-              Labore hic quasi ullam provident!</p>
-            <button class="button about-item__button">Read more</button>
+            <p class="about-item__desc">PT Margahayu Jaya Indah Plastik adalah Perusahaan yg bergerak dibidang indutri
+              plastik, perusahaan kami berdiri sejak tahun 2022. Alamat kantor kami adalah di Jl. Cibingbin No.33 RT.005
+              RW.004 Desa Laksana Mekar Kec. Padalarang Kab. Bandung Barat 40561.</p>
+            <!-- <button class="button about-item__button">Read more</button> -->
           </div>
         </div>
         <div class="about-item container">
           <img class="about-item__image" src="./assets/images/bcb3fbeb-6a0a-4247-ad54-64ab04435642.jpeg" alt="">
           <div class="about-item__body">
-            <h2 class="about-item__title">Lorem ipsum</h2>
-            <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate odio eos
-              eum, ipsam architecto aut consectetur soluta vero consequuntur repudiandae excepturi quas maiores ducimus?
-              Labore hic quasi ullam provident!</p>
-            <button class="button about-item__button">Read more</button>
+            <h2 class="about-item__title">Misi Kami</h2>
+            <p class="about-item__desc">Kami berdedikasi untuk memberikan solusi inovatif dan berkelanjutan di bidang
+              plastik. Dengan teknologi canggih dan tim profesional, kami membantu mitra bisnis meningkatkan efisiensi
+              dan mengurangi dampak lingkungan.</p>
+            <!-- <button class="button about-item__button">Read more</button> -->
           </div>
         </div>
         <div class="about-item container">
           <img class="about-item__image" src="./assets/images/bcb3fbeb-6a0a-4247-ad54-64ab04435642.jpeg" alt="">
           <div class="about-item__body">
-            <h2 class="about-item__title">Lorem ipsum</h2>
-            <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate odio eos
-              eum, ipsam architecto aut consectetur soluta vero consequuntur repudiandae excepturi quas maiores ducimus?
-              Labore hic quasi ullam provident!</p>
-            <button class="button about-item__button">Read more</button>
+            <h2 class="about-item__title">Komitmen Kami</h2>
+            <p class="about-item__desc">Komitmen kami adalah kualitas, kepercayaan, dan layanan terbaik. Kami bekerja
+              sama dengan klien untuk memenuhi kebutuhan mereka secara spesifik, memastikan kepuasan melalui produk yang
+              andal dan layanan yang responsif.</p>
+            <!-- <button class="button about-item__button">Read more</button> -->
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer id="footer" class="container">
-    <div class="footer-list">
-      <div>asd</div>
-      <div>asd</div>
-      <div>asd</div>
-      <div>asd</div>
+  <footer id="footer">
+    <div id="top-footer" class="footer-list container">
+      <div class="dynamic-column">
+        <img class="logo" src="./assets/images/logo.jpg" alt="">
+        <div class="footer-desc">
+          <h2>PT Margahayu Jaya Indah Plastik</h2>
+          <p>PT Margahayu Jaya Indah Plastik adalah Perusahaan yg bergerak dibidang indutri
+            plastik, perusahaan kami berdiri sejak tahun 2022. Kami berdedikasi untuk memberikan solusi inovatif dan
+            berkelanjutan di bidang plastik.</p>
+        </div>
+      </div>
+      <div>
+        <h3>Tautan Navigasi</h3>
+        <ul id="footer-links">
+          <li><a href="./index.html">Beranda</a></li>
+          <li><a href="./about.html">Tentang Kami</a></li>
+          <li><a href="./product.html">Produk</a></li>
+          <li><a href="./contact.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <ul id="footer-contacts">
+          <li>
+            <h4 class="element-with-logo"><i class="fa fa-phone-alt"></i>Telepon</h4>
+            <p>022-6860927 / 022-6865793</p>
+          </li>
+          <li>
+            <h4 class="element-with-logo"><i class="fa fa-envelope"></i>Email</h4>
+            <p>margahayuplastik@yahoo.com / plasticmji@gmail.com</p>
+          </li>
+          <li>
+            <h4 class="element-with-logo"><i class="fa fa-map-marker-alt"></i>Alamat</h4>
+            <p>Jl. Cibingbin No.33 RT.005 RW.004 Desa Laksana Mekar Kec. Padalarang Kab. Bandung Barat 40561.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="bot-footer" class="footer-copyright container">
+      copyright
     </div>
   </footer>
+  
+  <script type="module" src="./assets/script/index.js"></script>
 </body>
 
 </html>

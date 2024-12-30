@@ -1,6 +1,7 @@
 (() => {
   const navlinks = document.getElementById("nav-links");
   const menu = document.getElementById("menu");
+  const menuBotton = document.getElementById("menu-button")
 
   const responsiveMenu = () => {
     if (window.innerWidth < 769) {
@@ -19,8 +20,12 @@
         });
       }
       navlinks.classList.remove("hide");
+      menuBotton.classList.remove("fa-list-ul");
+      menuBotton.classList.add("fa-chevron-up");
     } else {
       navlinks.classList.add("hide");
+      menuBotton.classList.remove("fa-chevron-up");
+      menuBotton.classList.add("fa-list-ul");
     }
   };
 
@@ -40,4 +45,14 @@
       (document.getElementById("header-nav").clientHeight + document.getElementById("footer").clientHeight) +
       "px";
   }
+
+  document.querySelectorAll('[class="product-item__image"]').forEach((element) => {
+    element.style.minHeight = element.clientWidth + "px";
+    element.style.maxHeight = element.clientWidth + "px";
+  });
+
+  document.querySelectorAll('[class="about-item__image"]').forEach((element) => {
+    element.style.minHeight = element.clientWidth * 0.67 + "px";
+    element.style.maxHeight = element.clientWidth + "px";
+  });
 })();
