@@ -15,13 +15,13 @@ export const createAccordion = (title = "", childElement) => {
   const headerIcon = document.createElement('div');
   headerIcon.className = "accordion-header__icon";
   const icon = document.createElement('i');
-  icon.className = "fa fa-plus";
+  icon.className = "fa fa-minus";
   headerIcon.appendChild(icon);
   
   header.appendChild(headerText);
   header.appendChild(headerIcon)
 
-  header.setAttribute("aria-expanded", "false");
+  header.setAttribute("aria-expanded", "true");
 
   // Add click event to toggle visibility
   header.addEventListener("click", () => {
@@ -36,7 +36,7 @@ export const createAccordion = (title = "", childElement) => {
   content.setAttribute("id", title)
   content.className = "accordion-content";
   setTimeout(() => {
-    content.style.display = "none"; // Initially hidden
+    content.style.display = "block"; // Initially hidden
   }, 1);
   content.appendChild(childElement);
 
