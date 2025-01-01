@@ -1,13 +1,12 @@
 * {
   transition: all;
   transition-duration: 100ms;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 /* body rules */
 body {
-  font-family: "Poppins", serif;
   margin: 0 !important;
-  font-family: "Inter", sans-serif;
 }
 
 /* header rules */
@@ -88,8 +87,21 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding-block: 3rem;
+  /* padding-block: 3rem; */
   box-sizing: border-box;
+}
+
+main > section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+main > *:first-child {
+  margin-block-start: 3rem;
+}
+
+main > *:last-child {
+  margin-block-end: 3rem;
 }
 
 main > section {
@@ -101,10 +113,17 @@ main > section {
   padding-inline: 8rem;
 }
 
+h1.section-title {
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .section-title {
   text-align: center;
   margin-block-end: .5rem;
-  font-size: 2.4rem;
   font-weight: bold;
 }
 
@@ -433,6 +452,45 @@ main > section {
   height: 450px;
   border: 0;
   margin-block-start: 2rem;
+}
+
+.mail-input {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.mail-input input,
+.mail-input textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 12px 0;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  border: 1px solid #0088ff;
+  border-radius: 4px;
+}
+
+.mail-input textarea {
+  min-height: 175px;
+}
+
+/* .mail-input__text {
+  font-weight: bold;
+}
+
+.mail-input__textarea {
+  min-height: 175px;
+} */
+
+.mail-input button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* Footer Rules */

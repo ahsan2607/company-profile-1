@@ -49,7 +49,7 @@ import { createFloatCallButton } from "./ui/index.js";
       "px";
   }
 
-  document.getElementById("main").appendChild(createFloatCallButton("mailto:plasticmji@gmail.com"));
+  document.getElementById("footer").appendChild(createFloatCallButton("mailto:plasticmji@gmail.com"));
 
   document.querySelectorAll('[class="product-item__image"]').forEach((element) => {
     element.style.minHeight = element.clientWidth + "px";
