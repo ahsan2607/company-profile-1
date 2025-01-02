@@ -1,7 +1,7 @@
 * {
   transition: all;
   transition-duration: 100ms;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 /* body rules */
@@ -204,6 +204,7 @@ i.fa {
   border: none;
   border-bottom: .001px solid #0088ff;
   display: flex;
+  align-items: center;
 }
 
 .accordion-header:hover {
@@ -219,6 +220,8 @@ i.fa {
 .accordion-header__icon {
   width: 50%;
   text-align: end;
+  display: flex;
+  justify-content: end;
 }
 
 .accordion-header:hover {
